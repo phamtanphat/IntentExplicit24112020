@@ -14,5 +14,16 @@
         android:text="Send String"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
+    <Button
+        android:onClick="sendIntArray"
+        android:id="@+id/buttonSendIntArray"
+        android:text="Send Int Array"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="sendObject"
+        android:id="@+id/buttonSendObject"
+        android:text="Send Int Object"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </LinearLayout>
